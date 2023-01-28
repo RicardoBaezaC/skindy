@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <div className="header sticky">
             <div className="header-logo-container">
-                <div className="header-logo" alt="logo-skindy"></div>
+                <a className="header-logo" href="#home"> </a>
             </div>
             <nav className="top-nav-container">
                 <ul className={`top-nav-list ${isMenuShowing ? "show-menu" : ""}`}>
