@@ -6,6 +6,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 0.3rem;
+  padding-right: 1.5rem;
 }
 
 /* ------- HEADER LOGO ------- */
@@ -16,13 +18,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-left: 0.5rem;
   overflow: hidden;
 }
 
 .header-logo {
   aspect-ratio: 1;
-  height: 80%;
+  height: 70%;
   border-radius: 50%;
   background-image: url('../../assets/img/logos/blue-logo.jpeg');
   background-size: 160%;
@@ -45,7 +46,6 @@
   justify-content: flex-end;
   font-family: "MontserratRegular";
   color: #d5d3d3;
-  padding-right: 1.5rem;
 }
 
 .top-nav-list {
@@ -102,7 +102,7 @@
         position: relative;
     }
 
-    .top-nav-container {
+    .header {
         padding-right: 0.5rem;
     }
 
@@ -111,7 +111,7 @@
         position: absolute;
         top: calc(var(--header-height) - 1px);
         right: 0;
-        width: 100vw;
+        width: 100%;
         display: none;
         background-color: var(--blue-color);
     }
