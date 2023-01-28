@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --blue-king-color: #02385F;
+  --blue-color: #0057A4;
+  --sky-color: #78A9DC;
+  --blue-white-color: #C6D8E7;
+  --header-height: 100px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face{
+  font-family: 'MontserratSemibold';
+  font-style: normal;
+  font-weight: bold;
+  src: url('assets/fonts/MontserratSemibold.OTF');
 }
+@font-face{
+  font-family: 'CyreneRegular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/CyreneRegular.OTF');
+}
+
+@font-face{
+  font-family: 'MontserratRegular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('assets/fonts/MontserratRegular.OTF');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height:100vh;
+  min-width: 325px;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+
