@@ -90,12 +90,22 @@
     height: 100%;
     width: 100%;
     background-position: center;
-    background-size: 400px;
+    background-size: 30%;
     background-repeat: no-repeat;
 }
 
 @media (max-width: 500px) {
     .home-img {
         background-position-x: 70%;
+    }
+
+    .home-logo {
+        background-size: 80%;
+    } 
+}
+
+@media (max-height: 400px) {
+    .home-img::after { 
+        top: 60%;
     }
 }
