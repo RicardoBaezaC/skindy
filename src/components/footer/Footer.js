@@ -13,7 +13,7 @@ const Footer = () => {
             </div>
             <div className="footer-icon-container">
                 <SocialIcon name="instagram" image={instagram} url="https://instagram.com/skindy.mx?igshid=YmMyMTA2M2Y="/>
-                <SocialIcon name="facebook" image={facebook} url="https://web.facebook.com/ricardo.baezacandor.3" />          
+                <SocialIcon name="facebook" image={facebook} url="" />          
             </div>
         </div>
     )
